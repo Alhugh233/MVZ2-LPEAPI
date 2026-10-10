@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>LanguagePackEnhance.API</AssemblyName>
+    <Product>LanguagePackEnhance.API</Product>
+    <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>LanguagePackEnhance</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>LanguagePackEnhance</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+</Project>
