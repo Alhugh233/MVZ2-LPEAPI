@@ -8,6 +8,8 @@
 
 本程序集只包含公开的 API 类型（`LanguagePackEnhanceApi`、`TranslationEntry`、`ILanguagePackEnhanceService`），**不依赖游戏与 BepInEx**。其它 Mod 针对它编译，实际实现由 `LanguagePackEnhance.dll` 插件在运行时提供。
 
+> **从 v1.1 起，本项目适配 MVZ2 0.7.X 底层。** 对 EXPAND 等改版的支持将在其源码更新后于后续版本恢复。
+
 > 本工程设计为与 `LanguagePackEnhance` 插件工程并列存放（同级目录），由插件通过 `ProjectReference` 引用。
 
 ## 给 Mod 作者

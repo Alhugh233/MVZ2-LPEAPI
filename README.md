@@ -8,6 +8,8 @@ The **thin API** assembly for [**LanguagePackEnhance**](https://github.com/Alhug
 
 This assembly contains only the public API types (`LanguagePackEnhanceApi`, `TranslationEntry`, `ILanguagePackEnhanceService`) and has **no game or BepInEx dependencies**. Other mods compile against it, while the actual implementation is provided at runtime by the `LanguagePackEnhance.dll` plugin.
 
+> **Since v1.1, this project targets the MVZ2 0.7.X base.** Support for EXPAND and other variants will return in a later version, once their sources are updated.
+
 > This project is intended to live next to the `LanguagePackEnhance` plugin project (sibling directory). The plugin references it via a `ProjectReference`.
 
 ## For mod authors
